@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 # Declare member variables here. Examples:
-var speed = 150
+var speed = 50
 var move_vector = Vector2(0,0)
 onready var npc_front_area = $npc_front_area
 
@@ -24,6 +24,6 @@ func _process(delta):
 
 func _on_npc_front_area_area_entered(area):
 	if area.name =="AreaResetDown":
-		#print("gobacknpc!")
+		print("gobacknpc!")
 		position.y = -100
 	pass # Replace with function body.

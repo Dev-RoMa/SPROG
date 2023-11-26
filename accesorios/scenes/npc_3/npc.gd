@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 # Declare member variables here. Examples:
-var speed = 150
+var speed = 100
 var move_vector = Vector2(0,0)
 onready var npc_front_area = $npc_front_area
 
