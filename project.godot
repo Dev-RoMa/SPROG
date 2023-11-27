@@ -11,6 +11,7 @@ config_version=4
 [application]
 
 config/name="S.P.R.O.G"
+run/main_scene="res://accesorios/scenes/main_menu/main_menu.tscn"
 config/icon="res://icon.png"
 
 [display]
